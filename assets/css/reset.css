@@ -1,54 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    vertical-align: baseline;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: var(--tipo-principal);
-    background-color: var(--blanco);
-    color: var(--negro);
-    min-height: 100vh;
-    font-size: 100%;
-    width: 100vw;
-  }
-  
-  h1,h2,h3,h4,h5,h6,p,span,a,strong,blockquote,i,b,u,em {
-    font-size: 1em;
-    font-weight: inherit;
-    font-style: inherit;
-    text-decoration: none;
-    color: inherit;
-  }
-  a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    font-size: inherit;
-  }
-  p a {
-    display: inline;
-  }
-  li {
-    list-style-type: none;
-  }
-  img,
-  picture,
-  video,
-  iframe,
-  figure {
-    max-width: 100%;
-    width: 100%;
-    display: block;
-  }
-  svg {
-    width: 100%;
-    display: block;
-    fill: currentColor;
-  }
-  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--tipo-principal);
+  background-color: var(--blanco);
+  color: var(--negro);
+  min-height: 100vh;
+  font-size: 100%;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
