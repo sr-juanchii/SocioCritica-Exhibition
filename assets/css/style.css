@@ -54,7 +54,7 @@ body {
 
 .navbar__data {
   height: 100%;
-  width: 100%;
+  width: 100%; /* Ajustar el tamaño al 100%*/
   display: flex;
   justify-content: space-between;
   align-items: center;
