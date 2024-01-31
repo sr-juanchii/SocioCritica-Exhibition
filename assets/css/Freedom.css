@@ -28,7 +28,7 @@
         }
         & nav {
           margin-top: 1.5rem;
-          color: rgb(111, 111, 111);
+          color: var(--black);
 
           & .top {
             display: flex;
@@ -44,7 +44,6 @@
               align-items: center;
 
               & .img-autores {
-
                 display: flex;
 
                 & .img-autor {
@@ -78,8 +77,8 @@
                 font-size: 0.75rem;
                 line-height: 1rem;
                 font-weight: 400;
-                color: hsl(0, 0%, 52.3%);
-                background-color: hsl(0, 0%, 90.9%);
+                color: var(--black);
+                background-color: var(--white);
                 cursor: pointer;
               }
             }
@@ -91,20 +90,41 @@
             margin-bottom: 1.75rem;
             border-radius: 1.5rem;
             width: 100%;
-            background-color: rgb(237, 237, 237);
+            height: 60%;
+            background-color: var(--light-white);
             padding-bottom: 66%;
-
-            & img {
-              position: absolute;
-              height: 100%;
-              width: 100%;
-              inset: 0px;
-              color: transparent;
-              object-fit: cover;
-            }
           }
         }
       }
     }
   }
+}
+
+.thumnail .img-post1{
+    position: absolute;
+    height: 60%;
+    inset: 0px;
+    color: transparent;
+    object-fit: cover;
+  
+}
+.page1 {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: justify;
+
+  & .soft_list li{
+    
+    list-style: circle;
+    font-weight: 600;
+
+  }
+
+}
+
+.page1 p {
+  margin-bottom: 20px;
 }
